@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+        integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="icon" href="/favicon.png" type="image/x-icon" />
+    <title>Tailwind CSS - SOP Laptops Store</title>
+</head>
+
+<body>
+    <!-- HEADER -->
+    <header>
+
+        <!-- NAVIGATION -->
+        <nav class="bg-white lg:w-11/12 m-auto xl:w-[1200px]">
+
+            <!-- TOP BAR -->
+            <div class="hidden lg:flex lg:justify-between lg:items-center lg:py-1 transition-all">
+                <!-- MOBILE NUMBER -->
+                <p class="lg:w-[15%]"><a href="#" class="2xl">+91 9022365428</a></p>
+
+                <!-- GIANT LOGO -->
+                <div class="giant-logo py-7 lg:w-[70%]">
+                    <a href="/">
+                        <img src="/assets/images/icons/logo.png" class="block w-32 m-auto" alt="Sop laptops logo">
+                    </a>
+                </div>
+
+                <!-- USER ICON -->
+                <div class="lg:w-[15%] flex justify-end">
+                    <a href="#" class="block w-8">
+                        <img class="w-full object-cover hover:opacity-30 transition-all"
+                            src="/assets/images/icons/user.png" alt="User icon">
+                    </a>
+                </div>
+            </div>
+
+            <!-- LINE -->
+            <hr class="hidden lg:block">
+
+            <!-- BOTTOM BAR -->
+            <div
+                class="menu-bar flex justify-between items-center px-4 py-3 transition-all sm:py-5 sm:px-8 lg:justify-center">
+                <div class="menu-bar">
+
+                    <!-- MENU ICON -->
+                    <a href="#" class="block w-4 lg:hidden">
+                        <img class="w-full object-cover" src="/assets/images/icons/equal.png" alt="Menu icon">
+                    </a>
+
+                    <!-- MENU LIST  -->
+                    <div class="menu-list absolute bg-white inset-0 z-10 hidden lg:block lg:static">
+                        <div class="flex justify-end p-4 lg:hidden">
+                            <a href="#" class="block">
+                                <img class="w-6 p-1" src="/assets/images/icons/multiply.png" alt="Menu icon">
+                            </a>
+                        </div>
+                        <hr class="lg:hidden">
+                        <ul class="uppercase p-4 w-[95%] m-auto lg:flex lg:space-x-5 lg:py-2 lg:w-full">
+                            <li><a class="text-sm py-4 block lg:px-5 lg:py-2 xl:text-base hover:text-black/70"
+                                    href="/">Home</a></li>
+                            <li><a class="text-sm py-4 block lg:px-5 lg:py-2 xl:text-base hover:text-black/70"
+                                    href="brands.html">Brands</a>
+                            </li>
+                            <li><a class="text-sm py-4 block lg:px-5 lg:py-2 xl:text-base hover:text-black/70"
+                                    href="about.html">About</a>
+                            </li>
+                            <li><a class="text-sm py-4 block lg:px-5 lg:py-2 xl:text-base hover:text-black/70"
+                                    href="contact.html">Contact</a></li>
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- LOGO ICON -->
+                <div class="lg:hidden">
+                    <a href="/">
+                        <img src="/assets/images/icons/logo.png" class="block w-12 m-auto sm:w-14"
+                            alt="Sop laptops logo">
+                    </a>
+                </div>
+
+                <!-- USER ICON -->
+                <div class="lg:hidden">
+                    <a href="#" class="block w-5">
+                        <img class="w-full object-cover" src="/assets/images/icons/user.png" alt="User icon">
+                    </a>
+                </div>
+            </div>
+        </nav>
+        <!-- / NAVIGATION END -->
+    </header>
+    <!--/ HEADER -->
+
+    <!-- MAIN SECTION  -->
+    <main class="py-7">
+        <!-- CONTACT -->
+
+        <!-- CONTACT HEADING -->
+        <div class="heading-box bg-gray-100 py-8 px-4 lg:py-12">
+            <h1 class="text-2xl md:w-[720px] md:m-auto lg:w-[90%] xl:w-[1200px]">CONTACT US</h1>
+        </div>
+
+        <div class="content-wrapper lg:flex lg:w-[90%] lg:m-auto xl:w-[1200px]">
+            <!-- CONTACT FORM -->
+            <div class="content-box md:w-[720px] md:m-auto lg:w-[55%]">
+                <form action="/" method="post" class="w-full px-4 md:px-0 py-10 my-6">
+                    <input class="w-full border border-gray-300 px-4 py-3 mb-4 sm:text-left outline-none" type="text"
+                        name="user" id="user" placeholder="Your Name">
+                    <input class="w-full border border-gray-300 px-4 py-3 mb-4 sm:text-left outline-none" type="text"
+                        name="user" id="user" placeholder="Your Email">
+                    <input class="w-full border border-gray-300 px-4 py-3 mb-4 sm:text-left outline-none" type="text"
+                        name="user" id="user" placeholder="Your Email">
+                    <input class="w-full border border-gray-300 px-4 py-3 mb-4 sm:text-left outline-none" type="text"
+                        name="user" id="user" placeholder="Your Location">
+                    <input class="w-full border border-gray-300 px-4 py-3 mb-4 sm:text-left outline-none" type="text"
+                        name="user" id="user" placeholder="Subject">
+                    <textarea name="msg" id="msg" cols="30" rows="7" placeholder="Message"
+                        class="w-full border border-gray-300 px-4 py-3 mb-4 sm:text-left outline-none"></textarea>
+                    <button class="bg-black text-white w-full py-4 text-xs transition-all hover:bg-gray-800 xl:py-5">SUBMIT</button>
+                </form>
+            </div>
+
+
+            <!-- CONTACT INFO -->
+            <div class="contact-info px-4 md:px-0 md:w-[720px] md:m-auto  lg:w-[45%] lg:ml-5 lg:my-0">
+                <ul class="bg-gray-100 py-6 px-5 list-outside lg:mt-16">
+                    <li class="flex py-3"><img class="w-5 mr-3" src="/assets/images/icons/delivery.svg" alt="">Free Home
+                        delivery all over pune</li>
+                    <li class="flex py-3"><img class="w-5 mr-3" src="/assets/images/icons/call.svg" alt="">+91
+                        9022365428
+                    </li>
+                    <li class="flex py-3"><img class="w-5 mr-3" src="/assets/images/icons/email.svg"
+                            alt=""><a class="hover:text-slate-600" href="mailto:soplaptops@gmail.com">soplaptops@gmail.com</a></li>
+                </ul>
+            </div>
+        </div>
+
+    </main>
+    <!--/ MAIN SECTION  -->
+
+
+    <!-- FOOTER SECTION -->
+    <footer class="footer-wrapper h-56 px-4 text-center bg-gray-100 flex justify-center items-center flex-col">
+        <div class="footer-1 text-xs mb-4 md:w-[768px]">
+            <a href="/contact" class="inline-block px-3 py-2">CONTACT</a>
+            <a href="/shop" class="inline-block px-3 py-2">SHOP</a>
+            <a href="/privacy-policy" class="inline-block px-3 py-2">PRIVACY POLICY</a>
+            <a href="/about-us" class="inline-block px-3 py-2">ABOUT US</a>
+        </div>
+        <div class="footer-2 md:w-[768px]">
+            <p>Copyright &copy; 2022 || Designed and Developed by <a href="/" class="font-semibold">SOP Laptops</a></p>
+        </div>
+    </footer>
+    <!--/ FOOTER SECTION -->
+
+</body>
+
+</html>
