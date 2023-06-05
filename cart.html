@@ -5,12 +5,12 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="/style.css">
+    <link rel="stylesheet" href="src/css/input.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
         integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <link rel="icon" href="/favicon.png" type="image/x-icon" />
-    <title>Tailwind CSS - SOP Laptops Store</title>
+    <link rel="icon" href="src/images/favicon.png" type="image/x-icon" />
+    <title>Cart | SOP Laptops Store</title>
 </head>
 
 <body>
@@ -28,7 +28,7 @@
                 <!-- GIANT LOGO -->
                 <div class="giant-logo py-7 lg:w-[70%]">
                     <a href="/">
-                        <img src="/assets/images/icons/logo.png" class="block w-32 m-auto" alt="Sop laptops logo">
+                        <img src="/src/images/icons/logo.png" class="block w-32 m-auto" alt="Sop laptops logo">
                     </a>
                 </div>
 
@@ -36,7 +36,7 @@
                 <div class="lg:w-[15%] flex justify-end">
                     <a href="#" class="block w-8">
                         <img class="w-full object-cover hover:opacity-30 transition-all"
-                            src="/assets/images/icons/user.png" alt="User icon">
+                            src="/src/images/icons/user.png" alt="User icon">
                     </a>
                 </div>
             </div>
@@ -51,14 +51,14 @@
 
                     <!-- MENU ICON -->
                     <a href="#" class="block w-4 lg:hidden">
-                        <img class="w-full object-cover" src="/assets/images/icons/equal.png" alt="Menu icon">
+                        <img class="w-full object-cover" src="/src/images/icons/equal.png" alt="Menu icon">
                     </a>
 
                     <!-- MENU LIST  -->
                     <div class="menu-list absolute bg-white inset-0 z-10 hidden lg:block lg:static">
                         <div class="flex justify-end p-4 lg:hidden">
                             <a href="#" class="block">
-                                <img class="w-6 p-1" src="/assets/images/icons/multiply.png" alt="Menu icon">
+                                <img class="w-6 p-1" src="/src/images/icons/multiply.png" alt="Menu icon">
                             </a>
                         </div>
                         <hr class="lg:hidden">
@@ -80,15 +80,14 @@
                 <!-- LOGO ICON -->
                 <div class="lg:hidden">
                     <a href="/">
-                        <img src="/assets/images/icons/logo.png" class="block w-12 m-auto sm:w-14"
-                            alt="Sop laptops logo">
+                        <img src="/src/images/icons/logo.png" class="block w-12 m-auto sm:w-14" alt="Sop laptops logo">
                     </a>
                 </div>
 
                 <!-- USER ICON -->
                 <div class="lg:hidden">
                     <a href="#" class="block w-5">
-                        <img class="w-full object-cover" src="/assets/images/icons/user.png" alt="User icon">
+                        <img class="w-full object-cover" src="/src/images/icons/user.png" alt="User icon">
                     </a>
                 </div>
             </div>
@@ -124,12 +123,12 @@
                             <span class="font-semibold mr-2 w-[35%] bg-black text-white px-2 py-2">Quantity</span>
                             <span class="w-[55%] py-2">1</span>
                             <div class="delete-item w-[10%] text-right p-1 py-2">
-                                <img class="block w-5 object-cover" src="/assets/images/icons/trash.svg" alt="Trash icon">
+                                <img class="block w-5 object-cover" src="/src/images/icons/trash.svg" alt="Trash icon">
                             </div>
                         </li>
                     </ul>
                 </div>
-                
+
             </div>
 
             <!-- CART LAYOUT -->
@@ -151,7 +150,8 @@
                         <td class="border border-gray-200/50 py-4 xl:py-5">Rs. 15,000</td>
                         <td class="border border-gray-200/50 py-4 xl:py-5">2</td>
                         <td class="border border-gray-200/50 py-4 xl:py-5">
-                            <img class="block w-5 object-cover m-auto" src="/assets/images/icons/trash.svg" alt="Trash icon">
+                            <img class="block w-5 object-cover m-auto" src="/src/images/icons/trash.svg"
+                                alt="Trash icon">
                         </td>
                     </tr>
                 </tbody>
@@ -160,7 +160,8 @@
 
         <!-- CHECKOUT BUTTON -->
         <div class="checkout px-4 text-right sm:w-[620px] sm:m-auto xl:w-[820px] sm:pr-0">
-            <button class="px-5 py-4 bg-black w-full text-white text-sm transition-all hover:bg-gray-800 sm:w-[30%]" type="submit">CHECKOUT</button>
+            <button class="px-5 py-4 bg-black w-full text-white text-sm transition-all hover:bg-gray-800 sm:w-[30%]"
+                type="submit">CHECKOUT</button>
         </div>
     </main>
     <!--/ MAIN SECTION  -->
